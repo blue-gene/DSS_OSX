@@ -5,9 +5,12 @@
       location = "group:libjpg/libjpg.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:DSS_OSX.xcodeproj">
+      location = "group:libraw/libraw.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:libraw/libraw.xcodeproj">
+      location = "group:libtiff/libtiff.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:DSS_OSX.xcodeproj">
    </FileRef>
 </Workspace>

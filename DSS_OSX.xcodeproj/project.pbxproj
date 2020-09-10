@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F13B3D42509FD5B005D708D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F13B3D32509FD5B005D708D /* main.cpp */; };
+		9F2DB7BC250A4A110018AB29 /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2DB7BB250A4A110018AB29 /* libtiff.a */; };
 		9FC44CCA250A090D001A578E /* libjpg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC44CC9250A090D001A578E /* libjpg.a */; };
 		9FC44DCB250A1961001A578E /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC44DCA250A1961001A578E /* libraw.a */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		9F13B3D02509FD5B005D708D /* DSS_OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSS_OSX; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F13B3D32509FD5B005D708D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9F2DB7BB250A4A110018AB29 /* libtiff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC44CC9250A090D001A578E /* libjpg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjpg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC44DCA250A1961001A578E /* libraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libraw.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -38,6 +40,7 @@
 			files = (
 				9FC44DCB250A1961001A578E /* libraw.a in Frameworks */,
 				9FC44CCA250A090D001A578E /* libjpg.a in Frameworks */,
+				9F2DB7BC250A4A110018AB29 /* libtiff.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		9FC44CC8250A090D001A578E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F2DB7BB250A4A110018AB29 /* libtiff.a */,
 				9FC44DCA250A1961001A578E /* libraw.a */,
 				9FC44CC9250A090D001A578E /* libjpg.a */,
 			);
